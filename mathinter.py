@@ -83,7 +83,7 @@ def operation(op , n, m):
 		if n ==0 :
 			raise ValueError('can not divide by zero')
 		else:
-			return int(m)/int(n)
+			return float(m)/float(n)
 
 
 def haspre(op1, op2):
